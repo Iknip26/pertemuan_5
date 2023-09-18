@@ -13,6 +13,7 @@ class HomepageActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomepageBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         val usernames = intent.getStringExtra(RegisterActivity.username)
         val emails = intent.getStringExtra(RegisterActivity.email)
         val phones = intent.getStringExtra(RegisterActivity.phone)
