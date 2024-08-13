@@ -22,6 +22,7 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         with(binding){
+
             toHomepage.setOnClickListener{
                 if(edtUsername.text.toString()!="" && edtEmail.text.toString()!="" && edtPassword.text.toString()!="" && edtPhone.text.toString()!="") {
                     if(binding.acc.isChecked) {
